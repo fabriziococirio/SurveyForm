@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+  
+ 
+  
+  
+<body>
+    
+<header>
+<h1 id="title">FreeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>
+    
+    
+<div class="container">
+
+  
+  <form id="survey-form">
+    
+    <!-- NAME -->
+    <div class="form-group">
+    <label id="name-label">Name</label>
+    <input id="name"  type="text"  placeholder="Enter your name" required size="100">
+    </div>
+    
+    
+    <!-- EMAIL -->
+    <div class="form-group">
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="Enter your Email" required size="100">
+    </div>
+    
+    
+    <!-- AGE -->
+   <div class="form-group">
+   <label id="number-label">Age(optional)</label>
+   <input id="number" type="number" min="8" max="10" placeholder="Enter your age" required>
+   </div> 
+    
+    
+    
+    <!-- CURRENT ROLE -->
+    <div class="form-group">
+    <label id="number-label">Which option best describes your current role? </label>
+    <select id="dropdown">
+    <option>Select current role</option>
+    <option>Student</option>
+    <option>Full time job</option>
+    <option>Full time learner</option>
+    <option>Prefer not say</option>
+    <option>Other</option>
+    </select>
+    </div>   
+
+    
+    
+ <!-- RECCOMEND1 -->
+
+<div class="form-group">
+<p>Would you recommend freeCodeCamp to a friend?</p>
+  
+<div class="user-recommend">
+<label>
+<input type="radio" name="user-recommend" value="definitely" class="input-radio" checked > Definitely
+</label>
+</div>
+
+<div class="user-recommend">
+<label>
+<input type="radio" name="user-recommend" value="maybe" class="input-radio" checked > Maybe
+</label>
+</div>
+
+<div class="user-recommend">
+<label>
+<input type="radio" name="user-recommend" value="maybe" class="input-radio" checked > Not sure
+</label>
+</div>
+  
+</div>  
+
+    
+ <!-- CURRENT ROLE -->
+  
+<div class="form-group">
+<label id="number-label">What is your favorite feature of freeCodeCamp?</label>
+<select id="dropdown">
+<option>Select an option</option>
+<option>Challenges</option>
+<option>Projects</option>
+<option>Community</option>
+<option>Open Source</option>
+</select>
+</div> 
+  
+<!-- RECOMMEND2 -->
+<div class="form-group2">
+<p>Would you recommend freeCodeCamp to a friend?</p>
+<br>
+<div id="improved">
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio">
+Front-end Projects
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  >   
+Back-end Projects
+</label>
+ <br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  > Data Visualization
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  > Challenges
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  > Gitter help rooms
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  > Videos
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio" > City Meetups
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio" > Wiki
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  > Forum
+</label>
+<br>
+<label>
+<input type="checkbox" name="user-recommend" value="front-end-projects" class="input-radio"  > Additional Courses
+</label>
+ 
+</div>
+
+</div>
+    
+
+
+<!-- COMMENTS -->
+<div class="form-group">
+<div>
+<label>
+<p>Any comments or suggestions?</p>
+<textarea>Enter yout comment here</textarea>
+</label>
+</div>
+</form>
+    
+<input type="submit" value="Submit" id="submit"/>
+
+</form>
+</div>    
+    
+    
+ 
+    
+    
+    
+</body>
+</html>
